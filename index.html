@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="container">
+      <!-- Password generator container -->
+      <div class="generator-container">
+        <!-- Top column with title and description -->
+        <div class="col">
+          <h1>Random Password Generator</h1>
+          <p>
+            Create strong and secure passwords to keep your account safe online.
+          </p>
+        </div>
+
+        <!-- Bottom column with password generator input and copy button -->
+        <div class="generator">
+          <div class="generator-input">
+            <!-- Input field for displaying generated password (readonly) -->
+            <input type="text" readonly />
+            <!-- Icon for refreshing password -->
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </div>
+          <!-- Button for copying the generated password -->
+          <button class="btn-copy">Copy</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
